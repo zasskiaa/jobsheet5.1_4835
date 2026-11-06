@@ -7,15 +7,15 @@ Console.Write("Jumlah halaman: ");
 int jumlahHalaman = int.Parse(Console.ReadLine());
 
 Console.Write("Harga per halaman: ");
-int hargaCetak = int.Parse(Console.ReadLine());
+int hargaPerHalaman = int.Parse(Console.ReadLine());
 
-int subTotal = jumlahHalaman * hargaCetak;
+int subTotal = jumlahHalaman * hargaPerHalaman;
 Console.WriteLine($"Sub Total: {subTotal}");
 
 const int biayaAdmin = 2000;
 Console.WriteLine("Biaya Administrasi: 2000");
 
-int totalBayar = totalBiaya + biayaAdmin;
+int totalBayar = subTotal + biayaAdmin;
 Console.WriteLine($"Total Bayar: {totalBayar}");
 
 
