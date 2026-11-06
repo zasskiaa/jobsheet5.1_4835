@@ -7,14 +7,14 @@ int jumlahHalaman = int.Parse(Console.ReadLine());
 Console.Write("Harga cetak per halaman: ");
 int hargaCetak = int.Parse(Console.ReadLine());
 
-int totalBayar = jumlahHalaman * hargaCetak;
-Console.WriteLine($"Total Bayar: {totalBayar}");
+int totalBiaya = jumlahHalaman * hargaCetak;
+Console.WriteLine($"Total Bayar: {totalBiaya}");
 
 const int biayaAdmin = 2000;
 Console.WriteLine("Biaya Administrasi: 2000");
 
-int totalBiaya = totalBayar + biayaAdmin;
-Console.WriteLine($"Total Biaya: {totalBiaya}");
+int totalBayar = totalBiaya + biayaAdmin;
+Console.WriteLine($"Total Biaya: {totalBayar}");
 
 
 
